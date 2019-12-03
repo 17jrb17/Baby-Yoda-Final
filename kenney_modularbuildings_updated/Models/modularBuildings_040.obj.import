@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/modularBuildings_040.obj-a4e0f5ce83caef135df5eb5f61e5be9c.mesh"
+
+[deps]
+
+files=[ "res://.import/modularBuildings_040.obj-a4e0f5ce83caef135df5eb5f61e5be9c.mesh" ]
+
+source_file="res://kenney_modularbuildings_updated/Models/modularBuildings_040.obj"
+dest_files=[ "res://.import/modularBuildings_040.obj-a4e0f5ce83caef135df5eb5f61e5be9c.mesh", "res://.import/modularBuildings_040.obj-a4e0f5ce83caef135df5eb5f61e5be9c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
