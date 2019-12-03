@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=2]
+
+[sub_resource type="SpatialMaterial" id=1]
+albedo_color = Color( 0.470588, 0.352941, 0.235294, 1 )
+
+[sub_resource type="CubeMesh" id=2]
+material = SubResource( 1 )
+size = Vector3( 1.5, 1, 0.1 )
+
+[sub_resource type="CubeMesh" id=3]
+material = SubResource( 1 )
+size = Vector3( 0.1, 1, 0.1 )
+
+[node name="Sign" type="StaticBody"]
+
+[node name="sign head" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.55045, 0 )
+mesh = SubResource( 2 )
+material/0 = null
+
+[node name="neck" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.565915, 0 )
+mesh = SubResource( 3 )
+material/0 = null
