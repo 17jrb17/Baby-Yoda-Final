@@ -4,7 +4,7 @@
 [ext_resource path="res://Scripts/Character.gd" type="Script" id=2]
 [ext_resource path="res://Scripts/Camera2.gd" type="Script" id=3]
 
-[node name="World" type="Spatial"]
+[node name="Character Whole" type="Spatial"]
 
 [node name="Character" parent="." instance=ExtResource( 1 )]
 script = ExtResource( 2 )
