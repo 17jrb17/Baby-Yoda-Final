@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://Scenes/Forest Ground.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/forest cliff.tscn" type="PackedScene" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://Scenes/ruin cliff corner.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Scenes/Building1.tscn" type="PackedScene" id=6]
 [ext_resource path="res://Scenes/Tree Log.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Scenes/Spaceship.tscn" type="PackedScene" id=8]
 
 [sub_resource type="ProceduralSky" id=1]
 sky_top_color = Color( 0.380392, 0.4, 0.411765, 1 )
@@ -356,3 +357,6 @@ transform = Transform( -7.86805e-08, 0, 0.3, 0, 0.3, 0, -1.8, 0, -1.31134e-08, 9
 
 [node name="Tree Log4" parent="." instance=ExtResource( 7 )]
 transform = Transform( 1.8, 0, 0, 0, 0.3, 0, 0, 0, 0.3, -21.1995, 2.28825, -49.7284 )
+
+[node name="Spaceship" parent="." instance=ExtResource( 8 )]
+transform = Transform( -2.18557e-08, 0, -0.5, 0, 0.5, 0, 0.5, 0, -2.18557e-08, -1.39552, 2.7458, -13.1007 )

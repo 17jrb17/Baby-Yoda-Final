@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/rocksTallOre.obj-c13ac0c159c74819278d825ef349facc.mesh"
+
+[deps]
+
+files=[ "res://.import/rocksTallOre.obj-c13ac0c159c74819278d825ef349facc.mesh" ]
+
+source_file="res://space-kit-1.0/Models/rocksTallOre.obj"
+dest_files=[ "res://.import/rocksTallOre.obj-c13ac0c159c74819278d825ef349facc.mesh", "res://.import/rocksTallOre.obj-c13ac0c159c74819278d825ef349facc.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

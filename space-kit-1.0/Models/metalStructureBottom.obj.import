@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/metalStructureBottom.obj-7dadfeb22983c78254845ceca3de4365.mesh"
+
+[deps]
+
+files=[ "res://.import/metalStructureBottom.obj-7dadfeb22983c78254845ceca3de4365.mesh" ]
+
+source_file="res://space-kit-1.0/Models/metalStructureBottom.obj"
+dest_files=[ "res://.import/metalStructureBottom.obj-7dadfeb22983c78254845ceca3de4365.mesh", "res://.import/metalStructureBottom.obj-7dadfeb22983c78254845ceca3de4365.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/consoleCorner.obj-aec7417c4a613b2d07c3995360acd459.mesh"
+
+[deps]
+
+files=[ "res://.import/consoleCorner.obj-aec7417c4a613b2d07c3995360acd459.mesh" ]
+
+source_file="res://space-kit-1.0/Models/consoleCorner.obj"
+dest_files=[ "res://.import/consoleCorner.obj-aec7417c4a613b2d07c3995360acd459.mesh", "res://.import/consoleCorner.obj-aec7417c4a613b2d07c3995360acd459.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

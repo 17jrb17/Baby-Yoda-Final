@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/metalTileDouble.obj-8cc0cac98f053fe1d4dadbcc9c2d59dc.mesh"
+
+[deps]
+
+files=[ "res://.import/metalTileDouble.obj-8cc0cac98f053fe1d4dadbcc9c2d59dc.mesh" ]
+
+source_file="res://space-kit-1.0/Models/metalTileDouble.obj"
+dest_files=[ "res://.import/metalTileDouble.obj-8cc0cac98f053fe1d4dadbcc9c2d59dc.mesh", "res://.import/metalTileDouble.obj-8cc0cac98f053fe1d4dadbcc9c2d59dc.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
