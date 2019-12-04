@@ -21,6 +21,8 @@ func get_input():
 		input_dir += -camera.global_transform.basis.x
 	if Input.is_action_pressed("strafe_right"):
 		input_dir += camera.global_transform.basis.x
+	if Input.is_action_pressed("end_game"):
+		get_tree().change_scene("res://Scenes/Credits scene.tscn")
 	input_dir = input_dir.normalized()
 	jump = false
 	if Input.is_action_just_pressed("jump"):

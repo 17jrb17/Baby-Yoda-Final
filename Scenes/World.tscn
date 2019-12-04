@@ -1,4 +1,4 @@
-[gd_scene load_steps=29 format=2]
+[gd_scene load_steps=32 format=2]
 
 [ext_resource path="res://Scenes/World.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/Forest Ground.tscn" type="PackedScene" id=2]
@@ -16,6 +16,7 @@
 [ext_resource path="res://Piano Loop.wav" type="AudioStream" id=14]
 [ext_resource path="res://Scenes/Sign.tscn" type="PackedScene" id=15]
 [ext_resource path="res://Scenes/CharacterV2.tscn" type="PackedScene" id=16]
+[ext_resource path="res://Screen Shot 2019-12-04 at 4.26.44 PM.png" type="Texture" id=17]
 
 [sub_resource type="ProceduralSky" id=1]
 sky_top_color = Color( 0.380392, 0.4, 0.411765, 1 )
@@ -72,6 +73,11 @@ albedo_texture = ExtResource( 10 )
 
 [sub_resource type="QuadMesh" id=12]
 material = SubResource( 11 )
+
+[sub_resource type="SpatialMaterial" id=13]
+albedo_texture = ExtResource( 17 )
+
+[sub_resource type="QuadMesh" id=14]
 
 [node name="World" type="Spatial"]
 script = ExtResource( 1 )
@@ -147,6 +153,7 @@ environment = SubResource( 2 )
 
 [node name="DirectionalLight" type="DirectionalLight" parent="."]
 transform = Transform( 0.319417, 0.521484, 0.791219, -0.457159, -0.646567, 0.610702, 0.830047, -0.556782, 0.0318768, 9.66423, 43.6215, -17.446 )
+light_color = Color( 0.823529, 0.796078, 0.796078, 1 )
 
 [node name="forest cliff" parent="." instance=ExtResource( 3 )]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 30.005, -7.5, -46.6 )
@@ -452,4 +459,16 @@ autoplay = true
 transform = Transform( -0.68208, 0, 0.862999, 0, 1.1, 0, -0.862999, 0, -0.68208, 9.38726, 2.39793, 20.5042 )
 
 [node name="KinematicBody" parent="." instance=ExtResource( 16 )]
-transform = Transform( -0.405025, 0, 0.29318, 0, 0.5, 0, -0.29318, 0, -0.405025, 34.932, 5.46984, -27.4 )
+transform = Transform( -0.405025, 0, 0.29318, 0, 0.5, 0, -0.29318, 0, -0.405025, 35.0927, 5.46984, -27.4 )
+
+[node name="exit instructions" type="MeshInstance" parent="."]
+transform = Transform( -1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 2.48334, 4.70778, -15.0622 )
+material_override = SubResource( 13 )
+cast_shadow = 0
+mesh = SubResource( 14 )
+material/0 = null
+
+[node name="DirectionalLight2" type="DirectionalLight" parent="."]
+transform = Transform( -0.1, 1.23552e-09, -9.79548e-09, -6.65307e-09, 0.0648725, 0.0761023, 7.29483e-09, 0.0761023, -0.0648725, 2.48147, 5.54979, -16.0862 )
+light_energy = 0.14
+light_indirect_energy = 0.0
