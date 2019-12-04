@@ -13,9 +13,9 @@
 [ext_resource path="res://Scenes/Tree Log.tscn" type="PackedScene" id=11]
 [ext_resource path="res://Scenes/Spaceship.tscn" type="PackedScene" id=12]
 [ext_resource path="res://wind1.wav" type="AudioStream" id=13]
-[ext_resource path="res://Scenes/FPSCharacter.tscn" type="PackedScene" id=14]
-[ext_resource path="res://Piano Loop.wav" type="AudioStream" id=15]
-[ext_resource path="res://Scenes/Sign.tscn" type="PackedScene" id=16]
+[ext_resource path="res://Piano Loop.wav" type="AudioStream" id=14]
+[ext_resource path="res://Scenes/Sign.tscn" type="PackedScene" id=15]
+[ext_resource path="res://Scenes/CharacterV2.tscn" type="PackedScene" id=16]
 
 [sub_resource type="ProceduralSky" id=1]
 sky_top_color = Color( 0.380392, 0.4, 0.411765, 1 )
@@ -444,12 +444,12 @@ unit_size = 10.0
 autoplay = true
 max_distance = 100.0
 
-[node name="FPSCharacter" parent="." instance=ExtResource( 14 )]
-transform = Transform( -0.716257, 0, 0.697836, 0, 1.8, 0, -0.697836, 0, -0.716257, 34.0559, 4.41182, -29.353 )
-
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource( 15 )
+stream = ExtResource( 14 )
 autoplay = true
 
-[node name="Sign" parent="." instance=ExtResource( 16 )]
+[node name="Sign" parent="." instance=ExtResource( 15 )]
 transform = Transform( -0.68208, 0, 0.862999, 0, 1.1, 0, -0.862999, 0, -0.68208, 9.38726, 2.39793, 20.5042 )
+
+[node name="KinematicBody" parent="." instance=ExtResource( 16 )]
+transform = Transform( -0.405025, 0, 0.29318, 0, 0.5, 0, -0.29318, 0, -0.405025, 34.932, 5.46984, -27.4 )
