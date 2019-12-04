@@ -1,9 +1,9 @@
 # Baby-Yoda-Final
 Team Baby Yoda's Game Jam Final
 
-Theme: END OF THE WORLD
-Type: 3rd Person Platformer
-Goal: Get to the Spaceship
+Theme: END OF THE WORLD                           CONTROLS: MOVEMENT: WASD      ESCAPE: E
+Type: 3rd Person Platformer                                 JUMP: SPACE         QUIT GAME: Q
+Goal: Get to the Spaceship                                  
 
 Feel:
 Decrepit area
