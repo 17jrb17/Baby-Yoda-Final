@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=2]
+[gd_scene load_steps=29 format=2]
 
 [ext_resource path="res://Scenes/World.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/Forest Ground.tscn" type="PackedScene" id=2]
@@ -15,6 +15,7 @@
 [ext_resource path="res://wind1.wav" type="AudioStream" id=13]
 [ext_resource path="res://Scenes/FPSCharacter.tscn" type="PackedScene" id=14]
 [ext_resource path="res://Piano Loop.wav" type="AudioStream" id=15]
+[ext_resource path="res://Scenes/Sign.tscn" type="PackedScene" id=16]
 
 [sub_resource type="ProceduralSky" id=1]
 sky_top_color = Color( 0.380392, 0.4, 0.411765, 1 )
@@ -449,3 +450,6 @@ transform = Transform( -0.716257, 0, 0.697836, 0, 1.8, 0, -0.697836, 0, -0.71625
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 15 )
 autoplay = true
+
+[node name="Sign" parent="." instance=ExtResource( 16 )]
+transform = Transform( -0.68208, 0, 0.862999, 0, 1.1, 0, -0.862999, 0, -0.68208, 9.38726, 2.39793, 20.5042 )
