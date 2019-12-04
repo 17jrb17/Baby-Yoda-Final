@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/bedBunk.obj-3da697e24352554130c7b63584bf9c0f.mesh"
+
+[deps]
+
+files=[ "res://.import/bedBunk.obj-3da697e24352554130c7b63584bf9c0f.mesh" ]
+
+source_file="res://Assets/bedBunk.obj"
+dest_files=[ "res://.import/bedBunk.obj-3da697e24352554130c7b63584bf9c0f.mesh", "res://.import/bedBunk.obj-3da697e24352554130c7b63584bf9c0f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

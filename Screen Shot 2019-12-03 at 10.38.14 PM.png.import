@@ -1,0 +1,36 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path.s3tc="res://.import/Screen Shot 2019-12-03 at 10.38.14 PM.png-6d65e3d9e0b3c9a327a9b9ccfc5dca54.s3tc.stex"
+path.etc2="res://.import/Screen Shot 2019-12-03 at 10.38.14 PM.png-6d65e3d9e0b3c9a327a9b9ccfc5dca54.etc2.stex"
+metadata={
+"imported_formats": [ "s3tc", "etc2" ],
+"vram_texture": true
+}
+
+[deps]
+
+source_file="res://Screen Shot 2019-12-03 at 10.38.14 PM.png"
+dest_files=[ "res://.import/Screen Shot 2019-12-03 at 10.38.14 PM.png-6d65e3d9e0b3c9a327a9b9ccfc5dca54.s3tc.stex", "res://.import/Screen Shot 2019-12-03 at 10.38.14 PM.png-6d65e3d9e0b3c9a327a9b9ccfc5dca54.etc2.stex" ]
+
+[params]
+
+compress/mode=2
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=true
+flags/filter=true
+flags/mipmaps=true
+flags/anisotropic=false
+flags/srgb=1
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0
